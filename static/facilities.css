@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;1,300;1,700&display=swap');
+/* CSS RESET */
+    *{
+        margin: 0%;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+/* NAVBAR     */
+    .navbar{
+        display: flex;
+        cursor: pointer;
+        width: 100%;
+        height: 68px;
+        align-items: center;
+        position: sticky;
+        top: 0;
+        z-index: 12;
+        font-family: 'Ubuntu', sans-serif;
+    }
+/* NAVBAR LOGO & NAV    */
+    .navLeft{
+       
+        width: 50%;
+        display: flex;
+        align-items: center;
+
+    }
+    .logo{
+        width: 30%;
+        color: white;
+        display: flex;
+    }
+    .logo img{
+        width: 32%;
+        border-radius: 23px;
+        border: 2px solid black;
+        margin: 7px 10px;
+    }
+    #logo{
+        margin: auto;
+        margin-left:0px ;
+    }
+    .navLeft li{
+        list-style: none;
+        padding: 5px;
+    }
+    .navLeft li a{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-decoration: none;
+        cursor: pointer;
+        font-weight: bold;
+        color: white;
+        font-size: 18px;
+
+    }
+    .navLeft li a:hover{
+        text-decoration:underline ;
+        color: salmon;
+
+        
+    }
+/* NAVBAR SEARCH & BOX */
+    .navRight{
+        text-align: right;
+        
+        width: 50%;
+
+    }
+    .navRight input{
+        outline: none;
+        border: 2px solid white;
+        padding: 4px;
+        font-size: 17px;
+        text-align: center;
+        border-radius: 12px;
+        background: none;
+        color: #ffffff;
+        /* margin: 11px 10px; */
+        font-weight: bold;
+        font-family: 'Ubuntu', sans-serif;
+
+    }
+  
+   
+  
+ 
+
+/* FACILITIES SECTION  */
+
+/* HOSTEL SECTION  */
+    .container{
+        height: 100vh;
+        /* opacity: 0.3; */
+
+     } 
+    
+    .hostel{
+        display: flex;
+        align-items: center;
+        margin: 12px 3px;        
+        padding: 12px;  
+        font-weight: bold;        
+    }
+    .img{
+        display: flex;
+        width: 100%;        
+        /* margin: 14px; */
+        padding: 23px;
+        /* max-width: 70%; */
+
+    }
+    .img img{
+        border: 2px solid black;
+        border-radius: 34px;
+        height: 64%;
+        max-width: 70%;
+    }
+
+    .h-secondary{
+        width: 50%;
+        margin:auto;
+        display: block;        
+    }
+    .h-secondary>a{
+        text-decoration: none;
+        font-size: 2rem;
+        text-align: center;
+        color: rgba(37, 26, 39, 0.801);
+        left: 50%;        
+    }
+    .headingPara{
+        margin-top:0 ;
+    }
+    .hostelPara{
+        padding: 23px;
+        font-size: 22px;
+        color: black;
+        line-height: 29px;        
+    }
+
+/* COMANDOSES SECTION  */
+    .commandoes{
+        color: black;
+    }
+    .imgPart{
+        margin: 12px;        
+        width:100%;
+    }
+    .imgPart img{
+        max-width: 100%;
+        height: 89%;
+        border: 2px solid black;
+        border-radius: 34px;
+        box-shadow: 0 22px 42px rgba(49, 49, 219, 0.612);
+    }
+    .h-secondry2{
+        color: white;
+        font-size: 1.5rem;
+        text-align: left;
+    }
+
+/* TRAINING SECTION  */
+    .training{
+        background-color: rgb(116, 110, 126);
+    }
+ .learning{
+     background-color: turquoise;
+     height: 59vh;
+ }
+/* FOOTER SECTION */
+    #footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 28px;
+        padding: 9px;
+        font-weight: bold;
+        color: white;
+        background-color: black;
+        
+    }
+
+
+/* UTILITY CLASSES */
+    .background{
+        background: rgba(0, 0, 0, 0.7) url('../static/img/bg.jpg');
+        background-size: cover;
+        background-blend-mode: darken;
+        bottom: 0;    
+    
+    }
+    .h-primary,.para{
+        color: white;
+     
+
+        text-align: center;      
+        padding: 10px;
+    }
+    
+    .btn{
+        border: 2px solid white;
+        padding: 5px;
+        margin: 10px 9px;
+        font-size: 20px;
+        border-radius: 12px;
+        cursor: pointer;
+        background: none;
+        color: white;            
+    }

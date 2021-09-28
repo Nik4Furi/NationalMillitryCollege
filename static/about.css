@@ -1,0 +1,213 @@
+/* CSS RESET */
+    *{
+        margin: 0%;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+/* NAVBAR     */
+    .navbar{
+        display: flex;
+        cursor: pointer;
+        width: 100%;
+        height: 68px;
+        align-items: center;
+        position: sticky;
+        top: 0;
+        z-index: 12;
+    }
+/* NAVBAR LOGO & NAV    */
+    .navLeft{
+    
+        width: 50%;
+        display: flex;
+        align-items: center;
+
+    }
+    .logo{
+        width: 30%;
+        color: white;
+        display: flex;
+    }
+    .logo img{
+        width: 32%;
+        border-radius: 23px;
+        border: 2px solid black;
+        margin: 7px 10px;
+    }
+    #logo{
+        margin: auto;
+        margin-left:0px ;
+    }
+    .navLeft li{
+        list-style: none;
+        padding: 5px;
+    }
+    .navLeft li a{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-decoration: none;
+        cursor: pointer;
+        font-weight: bold;
+        color: white;
+        font-size: 18px;
+
+    }
+    .navLeft li a:hover{
+        text-decoration:underline ;
+        color: salmon;        
+    }
+
+/* NAVBAR SEARCH & BOX */
+    .navRight{
+        text-align: right;
+        
+        width: 50%;
+
+    }
+    .navRight input{
+        outline: none;
+        border: 2px solid white;
+        padding: 4px;
+        font-size: 17px;
+        text-align: center;
+        border-radius: 12px;
+        background: none;
+        color: #ffffff;
+        /* margin: 11px 10px; */
+        font-weight: bold;
+
+    }
+
+/* ADDRESS CONTAINER */
+    .container{
+        height: 750px;   
+
+    }
+    .box{
+        width: 100%;
+        margin: auto;
+        display: flex;
+        position: relative;
+        top: 0;
+        left: 0;
+        height: 100vh;
+    }
+/* SECTION LEFT/TRIGHT */
+    .secLeft{
+        margin: 56px 12px;
+        margin-right: 0;
+        padding: 12px;
+        color: white;
+        background-color: rgb(165, 162, 157);
+        background: transparent;
+        height: 530px;
+        width: 40%;     
+       
+    }
+    .secRight{
+        margin: 56px 12px;
+        margin-left: 0;
+        padding: 12px;
+        width: 60%;    
+        height: 530px;
+        display: flex;
+        align-items: center;
+       
+        display: flex;
+
+    }
+    .column{
+        margin: 12px;
+        padding: 9px;
+        font-size: 18px;
+        font-weight: bold;
+        font-style: italic;
+    }
+    .row{
+        margin:auto 12px;
+        padding: 34px;
+       max-width: 50%;
+        height: 50%;
+        flex-direction: column;
+    }
+
+    .row a{
+        text-decoration: none;
+        color: white;
+
+       
+    }
+    .row .anchor2:hover{
+        color: rgb(212, 185, 240);
+        background-color: rgb(172, 90, 90);
+    }
+   .anchor2{  
+        text-align: center;
+        position: relative;
+        bottom: 10px;
+        left: 25%;
+    }
+    .img{
+        position: relative;
+        bottom:  10px;
+        height:100%;
+        width: 100%;
+        border: 5px solid black;
+        border-radius: 154px;
+        margin:  9px;       
+    }
+    address{
+        color: white;  
+    }
+    .buttons{
+        display: flex;
+    }
+    .addrs{        
+        line-height: 32px;
+    }
+    #anchor1,#anchor2{
+        text-decoration: none;
+        background-color: crimson;
+    }
+/* FOOTER SECTION */
+    #footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 28px;
+        padding: 9px;
+        font-weight: bold;
+        color: white;
+        background-color: black;
+
+        
+    }
+
+/* UTILITY CLASSES */
+.background{
+    background: rgba(0, 0, 0, 0.7) url('../static/img/bg.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+    bottom: 0;
+    left: 0;
+
+
+}
+    .h-primary,.para{
+        color: white;
+        text-align: center;
+    
+        padding: 10px;
+    }
+
+.btn{
+    border: 2px solid white;
+padding: 5px;
+margin: 10px 9px;
+font-size: 20px;
+border-radius: 12px;
+cursor: pointer;
+background: none;
+color: white;
+    
+}
